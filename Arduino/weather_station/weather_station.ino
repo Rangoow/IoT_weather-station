@@ -8,8 +8,8 @@
 String apiKey = "C864EPUIEOKZRO8I"; // Enter your Write API key from ThingSpeak.
 
 
-const char* ssid = "Noue"; // SSID of your WiFi router.
-const char* password = "adlanegrosdegun"; // Passwrd of your WiFi router.
+const char* ssid = "NOM_DU_WIFI"; // SSID of your WiFi router.
+const char* password = "MOT_DE_PASSE_DU_WIFI"; // Passwrd of your WiFi router.
 const char* server = "api.thingspeak.com"; // ThingSpeak Server
 const int DHTPin = D2; // The pin used for the DHT11 sensor is Pin D2
 
