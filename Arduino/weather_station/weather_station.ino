@@ -78,7 +78,7 @@ void loop() {
     Serial.print(t);
     Serial.print(" °C || Humidity: ");
     Serial.print(h);
-    Serial.println("%.")
+    Serial.println("%.");
     Serial.println("Datas has been sent to Thingspeak server.");
   }
   client.stop();
