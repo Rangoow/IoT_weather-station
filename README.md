@@ -7,7 +7,7 @@ ESPARSA Noé - SUBAYROLE Alexis - BRIQUET Thomas
    Ce projet avait pour but de mettre en place une mini station météo étant en mesure de récupérer des données météorologiques telle que la température et l'humidité d'une pièce. Une fois ces données récupérées nous devions être en mesure de les afficher sur une page web réaliser par nos soins.
 Pour le coté hardware nous avons utilisé un ESP866 ainsi qu'un capteur d'humidité et de température DHT11.
 
-## Choix techniqes 
+## Choix techniques 
 
 * Tout d'abord pour le transfert des données entre la partie Hardware et Software nous avions opté pour un communication via le système **SIgFox** cependant nous avons rencontré des problèmes sur a transmission des mesage et nous avons finalement opté pour la communication via **WiFi** qui s'est avéré nettement plus simple à mettre en place.
 
