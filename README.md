@@ -11,7 +11,7 @@ Pour le coté hardware nous avons utilisé un ESP866 ainsi qu'un capteur d'humid
 
 * Tout d'abord pour le transfert des données entre la partie Hardware et Software nous avions opté pour un communication via le système **SIgFox** cependant nous avons rencontré des problèmes sur a transmission des mesage et nous avons finalement opté pour la communication via **WiFi** qui s'est avéré nettement plus simple à mettre en place.
 
-* Nous avons ensuite utilisé **ThingSpeak.com** permetant d'héberger toutes les données récupérées par notre capteur. Celles-ci sont accessibles à n'importe qu'elle endroit tant qu'une connexion wifi est disponnible. Nous avons mis en place sur cette plateforme un historiques des données à l'aide d'un graphique ainsi qu'une vision en temps réelle des données captées.
+* Nous avons ensuite utilisé **ThingSpeak.com** permetant d'héberger toutes les données récupérées par notre capteur. Celles-ci sont accessibles à n'importe qu'elle endroit tant qu'une connexion wifi est disponnible. Nous avons mis en place sur cette plateforme un historiques des données à l'aide d'un graphique ainsi qu'une vision en temps réelle des données captées. De plus pour le tranfert des données nous avons utilisés des requetes **HTTP** en **POST** pour publier les résultats sur le channel en **humidity and temperature**.
 
 * Pour ce qui est de la gestion de projet nous avons divisé ce projet en 3 parties distinctes :
     * Une partie hardware et Arduino ( Noé ).
