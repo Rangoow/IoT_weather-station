@@ -36,3 +36,6 @@ Pour le coté hardware nous avons utilisé un ESP866 ainsi qu'un capteur d'humid
 
 ![Image of ThingSpeak Humidity display](https://github.com/Rangoow/IoT_weather-station/blob/master/Images/HumidityTS.JPG)
 
+## Ameliorations possibles
+
+* Pour ce qui est de la communication entre le capteur et le serveur ThingSpeak nous pourrions remplacer la requete **HTPP** en **POST** par un systeme de **MQTT** qui allégerai considérablement la quantité de ressources nécessaire pour l'envoie de message entre les 2 entités.
