@@ -23,9 +23,16 @@ Pour le coté hardware nous avons utilisé un ESP866 ainsi qu'un capteur d'humid
 1. Ouvrir le projet Arduino disponnible dans le github intitulé **weather_station.io**.
 2. Sur l'IDE Arduino importé les librairies **DHT** et **ESP8266WiFi**.
 3. Renseigner le nom du réseau WiFi sur lequel la carte se connectera ainsi que son mot de passe.
-4. Alimenter la carte nodeMCU et lancer le programme (Les données captées peuvent être visualiser directement depuis le port série).
+4. Verifier les branchements et alimenter la carte nodeMCU et lancer le programme (Les données captées peuvent être visualiser directement depuis le port série).
+
+![Image of hardware interfacing](https://github.com/Rangoow/IoT_weather-station/blob/master/Images/hardware_interfacing.png)
+
 5. Se rendre sur [ThingSpeak](https://thingspeak.com/login) et se connecter :
    * ID : noe.esparsa@isen.yncrea.fr
    * MDP : ProjetIoT2020
 6. Une fois connécté, dans l'onglet **My Channel** cliquer sur **Humidity and Temperature** permettant de visualiser les données renvoyées par le capteur en temps réél ainsi que l'historique.
+
+![Image of ThingSpeak Temperature display](https://github.com/Rangoow/IoT_weather-station/blob/master/Images/TemperatureTS.JPG)
+
+![Image of ThingSpeak Humidity display](https://github.com/Rangoow/IoT_weather-station/blob/master/Images/HumidityTS.JPG)
 
