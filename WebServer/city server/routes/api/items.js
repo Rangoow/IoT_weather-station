@@ -1,6 +1,4 @@
 const express = require("express");
-const weatherApi = require("../../WeatherAPI/weather");
-const weatherEsp = require("../../WeatherAPI/ESPWeather");
 const router = express.Router();
 
 //Item model

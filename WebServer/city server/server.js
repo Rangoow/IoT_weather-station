@@ -23,18 +23,15 @@ if (process.env.NODE_ENV === "production") {
 	});
 }
 // DB Config
-
 const db = require("./config/keys").mongoURI;
 
 // Mongo connect
-
 mongoose
 	.connect(db)
 	.then(() => console.log("Database connected"))
 	.catch(err => console.log(err));
 
 // use routes
-
 app.use("/api", items);
 
 const port = process.env.PORT || 8080;

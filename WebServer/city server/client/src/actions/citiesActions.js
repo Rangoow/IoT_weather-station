@@ -1,4 +1,4 @@
-import { GET_CITIES, DELETE_CITY, ADD_CITY, GET_CITY_INFO } from "./types";
+import { GET_CITIES, ADD_CITY } from "./types";
 import axios from "axios";
 
 export const getCities = () => dispatch => {

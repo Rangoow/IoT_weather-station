@@ -7,9 +7,6 @@ import {
 } from "@material-ui/core";
 import axios from "axios";
 import { withStyles } from "@material-ui/styles";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import { getCityInfos } from "../actions/citiesActions";
 import CityDetail from "./CityDetail";
 
 const style = {

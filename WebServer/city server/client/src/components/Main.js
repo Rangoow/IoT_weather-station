@@ -10,14 +10,14 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { getCities } from "../actions/citiesActions";
 
-const styles = theme => ({
+const styles = {
 	root: {
 		display: "flex"
 	},
 	cards: {
 		paddingTop: 70
 	}
-});
+};
 
 class MainPage extends Component {
 	state = { open: false };

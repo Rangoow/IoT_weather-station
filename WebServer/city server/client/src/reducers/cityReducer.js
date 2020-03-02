@@ -1,4 +1,4 @@
-import { GET_CITIES, DELETE_CITY, ADD_CITY } from "../actions/types";
+import { GET_CITIES, ADD_CITY } from "../actions/types";
 
 const initialState = {
 	cities: []

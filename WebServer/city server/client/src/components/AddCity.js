@@ -13,7 +13,6 @@ import {
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { addCity } from "../actions/citiesActions";
-import uuid from "uuid";
 
 const style = theme => ({
 	modal: {

@@ -122,7 +122,6 @@ class CityDetail extends Component {
 					"http://api.thingspeak.com/channels/997472/feeds.json?&results=100&api_key=CBO5J9VCE5IQ5EA3"
 				)
 				.then(res => {
-					console.log(res);
 					this.setState({
 						dates: res.data.feeds.map(x => x.created_at),
 						temps: res.data.feeds.map(x => x.field1),
