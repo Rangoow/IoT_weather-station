@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: 'mongodb+srv://Bob:bobmdp@iotdatabase-uwvoq.mongodb.net/test?retryWrites=true&w=majority'
+    mongoURI: 'mongodb://admin:coucou123@ds016108.mlab.com:16108/iot_project'
 }
 
